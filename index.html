@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+          <!-- https://github.com/dixonandmoe/rellax
+          https://dixonandmoe.com/rellax/#Centering 
+          https://cssanimation.rocks/parallax/-->
+
+          <div class="container">
+                    <div class="one">
+                              <div class="img rellax" data-rellax-speed="6">
+                                        <img src="./images/heru-hartanto-rohNfep7UEE-unsplash.jpg" alt="">
+                              </div>
+                              <div class="info">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, nisi expedita
+                                        nobis blanditiis vel consectetur dolorum corporis totam nemo, consequatur
+                                        distinctio optio repellendus architecto sed veniam! Sit placeat, molestiae, quas
+                                        similique incidunt voluptatibus cumque vitae soluta dolorem quam iure
+                                        reiciendis. Aperiam necessitatibus impedit quibusdam incidunt ipsam veritatis
+                                        ab, quasi modi.
+                              </div>
+                    </div>
+                    <div class="two">
+                              <div class="img" data-rellax-speed="-3">
+                                        <img src="./images/laura-chouette-lJZy03xrPtE-unsplash (1).jpg" alt="">
+                              </div>
+                              <div class="info rellax" data-rellax-speed="8">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, nisi expedita
+                                        nobis blanditiis vel consectetur dolorum corporis totam nemo, consequatur
+                                        distinctio optio repellendus architecto sed veniam! Sit placeat, molestiae, quas
+                                        similique incidunt voluptatibus cumque vitae soluta dolorem quam iure
+                                        reiciendis. Aperiam necessitatibus impedit quibusdam incidunt ipsam veritatis
+                                        ab, quasi modi.
+                              </div>
+                    </div>
+                    <div class="three">
+                              <div class="img" data-rellax-speed="5">
+                                        <img src="./images/rene-ranisch-o5ULV1tP1B4-unsplash.jpg" alt="">
+                              </div>
+                              <div class="info rellax" data-rellax-speed="-3">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, nisi expedita
+                                        nobis blanditiis vel consectetur dolorum corporis totam nemo, consequatur
+                                        distinctio optio repellendus architecto sed veniam! Sit placeat, molestiae, quas
+                                        similique incidunt voluptatibus cumque vitae soluta dolorem quam iure
+                                        reiciendis. Aperiam necessitatibus impedit quibusdam incidunt ipsam veritatis
+                                        ab, quasi modi.
+                              </div>
+                    </div>
+                    <div class="four relax">
+                              <div class="img" data-rellax-speed="-3">
+                                        <img src="./images/matt-moloney-PtoesgspU70-unsplash.jpg" alt="">
+                              </div>
+                              <div class="info" data-rellax-speed="5">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, nisi expedita
+                                        nobis blanditiis vel consectetur dolorum corporis totam nemo, consequatur
+                                        distinctio optio repellendus architecto sed veniam! Sit placeat, molestiae, quas
+                                        similique incidunt voluptatibus cumque vitae soluta dolorem quam iure
+                                        reiciendis. Aperiam necessitatibus impedit quibusdam incidunt ipsam veritatis
+                                        ab, quasi modi.
+                              </div>
+                    </div>
+
+          </div>
+
+          <script src="./rellax.min.js"></script>
+
+          <script>
+                    var rellax = new Rellax('.rellax'
+                              , {
+                                        speed: -2,
+                                        center: true,
+                                        wrapper: null,
+                                        round: true,
+                                        vertical: true,
+                                        horizontal: false
+                              });
+
+                    var rellaxNonCentered = new Rellax('.rellax-non-centered', {
+                              center: false,
+                    })
+          </script>
+</body>
+
+</html>
